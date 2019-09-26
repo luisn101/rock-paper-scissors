@@ -1,1 +1,1 @@
-This is a simple Rock Paper Scissors JavaScript game project.
+This is the Rock-Paper-Scissors game with a simple UI. You will play with the computer and the first to get to 5 points, wins the game. Good Luck!
