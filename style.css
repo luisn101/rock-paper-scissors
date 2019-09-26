@@ -1,0 +1,81 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(rock-paper-scissors.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    color: rgb(83, 5, 11);
+    text-shadow: 2px 2px rgb(238, 235, 36);
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(83, 5, 11);
+    text-shadow: 2px 2px rgb(238, 235, 36); 
+}
+
+#buttonsContainer {
+    text-align: center;
+}
+
+#rock {
+    background-color: rgb(38, 10, 141);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding: 15px 15px;
+    margin-right: 80px;
+    border-radius: 3px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#paper {
+    background-color: rgb(219, 208, 57);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding: 15px 15px;
+    margin-right: 80px;
+    border-radius: 3px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#scissors {
+    background-color: rgb(233, 92, 87);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding: 15px 15px;
+    margin-right: 20px;
+    border-radius: 3px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+
+#resultsContainer {
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(83, 5, 11);
+}
+
+#winnerContainer {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(83, 5, 11);
+}
