@@ -20,6 +20,15 @@ h3 {
     text-shadow: 2px 2px rgb(238, 235, 36); 
 }
 
+.button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    cursor: pointer;
+    
+}
+
 #buttonsContainer {
     text-align: center;
 }
